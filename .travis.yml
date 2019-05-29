@@ -6,7 +6,6 @@ before_install:
 
 script:
   - qmake
-  - make
   - ./tests/tests
 
 after_success:
