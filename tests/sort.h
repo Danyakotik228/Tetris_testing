@@ -6,15 +6,15 @@
 
 TEST(sort, empty)
 {
-    QString inputPath = "./tests/input/input1.txt";
+    QString inputPath = "./tests/input/input1";
     QFile input(inputPath);
 
-    QString outputPath = "./tests/output/output1.txt";
+    QString outputPath = "./tests/output/output1";
     QFile output(outputPath);
 
     sorting(inputPath, outputPath);
 
-    QFile expected("./expected/expected1.txt");
+    QFile expected("./expected/expected1");
 
     QString outputString;
     QString expectedString;
@@ -44,15 +44,15 @@ TEST(sort, empty)
 
 TEST(sort, repeatnames)
 {
-    QString inputPath = "./tests/input/input2.txt";
+    QString inputPath = "./tests/input/input2";
     QFile input(inputPath);
 
-    QString outputPath = "./tests/output/output2.txt";
+    QString outputPath = "./tests/output/output2";
     QFile output(outputPath);
 
     sorting(inputPath, outputPath);
 
-    QFile expected("./expected/expected2.txt");
+    QFile expected("./expected/expected2");
 
     QString outputString;
     QString expectedString;
@@ -82,15 +82,15 @@ TEST(sort, repeatnames)
 
 TEST(sort, simpleworking)
 {
-    QString inputPath = "./tests/input/input3.txt";
+    QString inputPath = "./tests/input/input3";
     QFile input(inputPath);
 
-    QString outputPath = "./tests/output/output3.txt";
+    QString outputPath = "./tests/output/output3";
     QFile output(outputPath);
 
     sorting(inputPath, outputPath);
 
-    QFile expected("./expected/expected3.txt");
+    QFile expected("./expected/expected3");
 
     QString outputString;
     QString expectedString;
