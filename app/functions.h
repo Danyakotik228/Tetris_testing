@@ -1,5 +1,5 @@
-#ifndef MYFUNC_H
-#define MYFUNC_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 #include <iostream>
 #include <QFile>
@@ -30,4 +30,4 @@ struct S{
 void cleararray(int field[20][10]);
 int calculate(int sum, int k);
 int check(int field[20][10]);
-#endif // MYFUNC_H
+#endif // FUNCTIONS_H
