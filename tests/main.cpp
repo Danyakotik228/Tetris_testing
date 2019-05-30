@@ -1,6 +1,7 @@
 #include "cleararray.h"
 #include "calculate.h"
 #include "check.h"
+#include "sort.h"
 
 #include <gtest/gtest.h>
 
