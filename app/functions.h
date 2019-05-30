@@ -1,6 +1,6 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
-
+#include <iostream>
 #include <QFile>
 #include <string>
 #include <cstdio>
@@ -8,7 +8,6 @@
 #include <QDebug>
 #include <cstdlib>
 #include <algorithm>
-#include <iostream>
 using namespace std;
 
 bool executeTest(QString output, QString expected)
