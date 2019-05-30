@@ -2,6 +2,7 @@
 #define FUNCTIONS_H
 #include <iostream>
 #include <QFile>
+#include <QString>
 #include <string>
 #include <cstdio>
 #include <fstream>
