@@ -1,6 +1,6 @@
 #ifndef MYFUNC_H
 #define MYFUNC_H
-
+using namespace std;
 #include <iostream>
 #include <QFile>
 #include <string>
@@ -9,7 +9,7 @@
 #include <QDebug>
 #include <cstdlib>
 #include <algorithm>
-using namespace std;
+
 
 bool executeTest(QString output, QString expected)
 {
