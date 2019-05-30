@@ -1,9 +1,6 @@
-#include <stdio.h>
-
 #include "functions.h"
 
 int main()
 {
-    printf("Hello World!\n");
-    return 0;
+    std::cout << "Hello world!" << std::endl;
 }
