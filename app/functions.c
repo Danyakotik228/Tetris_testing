@@ -1,13 +1,5 @@
 #include "functions.h"
 #include <QStringList>
-#include <iostream>
-#include <QFile>
-#include <string>
-#include <cstdio>
-#include <fstream>
-#include <QDebug>
-#include <cstdlib>
-#include <algorithm>
 
 void cleararray(int field[20][10])
 {
