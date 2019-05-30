@@ -9,7 +9,7 @@
 #include <QDebug>
 #include <cstdlib>
 #include <algorithm>
-
+using namespace std;
 
 bool executeTest(QString output, QString expected)
 {
