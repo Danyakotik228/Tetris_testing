@@ -25,3 +25,14 @@ SOURCES +=     main.cpp \
 	../app/functions.c
 
 INCLUDEPATH += ../app
+
+DISTFILES += \
+    expected/expected1 \
+    expected/expected2 \
+    expected/expected3 \
+    input/input1 \
+    input/input2 \
+    input/input3 \
+    output/output1 \
+    output/output2 \
+    output/output3
