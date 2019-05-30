@@ -1,6 +1,6 @@
 #ifndef MYFUNC_H
 #define MYFUNC_H
-using namespace std;
+
 #include <iostream>
 #include <QFile>
 #include <string>
