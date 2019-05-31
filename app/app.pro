@@ -4,8 +4,8 @@ CONFIG -= app_bundle
 CONFIG += qt
 CONFIG += c++11
 
-SOURCES += main.c \
-    functions.c
+SOURCES += main.cpp \
+    functions.cpp
 
 HEADERS += \
     functions.h
