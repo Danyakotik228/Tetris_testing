@@ -27,6 +27,7 @@ int calculate(int sum, int k){
 int check(int field[20][10])
 {
     int i;
+    point a[4], b[4];
    for (i=0;i<4;i++)
       if (a[i].x<0 || a[i].x>=10 || a[i].y>=20) return 0;
       else if (field[a[i].y][a[i].x]) return 0;
