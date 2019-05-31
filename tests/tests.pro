@@ -19,7 +19,6 @@ HEADERS +=     \
 	../app/functions.h \
     cleararray.h \
     calculate.h \
-    check.h \
     sort.h
 
 SOURCES +=     main.cpp \
