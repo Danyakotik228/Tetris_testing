@@ -12,7 +12,6 @@ HEADERS += \
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror 
 QMAKE_CXX_FLAGS += -std=c++11
-GOOGLETEST_DIR = ../Tetris_testing/external/googletest/googletest/src/
 
 # gcov
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
