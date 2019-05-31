@@ -17,7 +17,7 @@ struct S{
       int num;
       QString sss;
     };
-
+void sorting(QString Path, QString OutputPath);
 void cleararray(int field[20][10]);
 int calculate(int sum, int k);
 #endif // FUNCTIONS_H
