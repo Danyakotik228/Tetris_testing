@@ -23,7 +23,7 @@ HEADERS +=     \
     sort.h
 
 SOURCES +=     main.cpp \
-	../app/functions.c
+	../app/functions.cpp
 
 INCLUDEPATH += ../app
 
