@@ -14,7 +14,9 @@ using namespace std;
 bool executeTest(QString output, QString expected);
 
 struct Point
-{int x,y;} a[4], b[4];
+{
+      int x,y;
+};
 
 struct S{
       int num;
