@@ -1,5 +1,4 @@
 #include "functions.h"
-#include <QStringList>
 
 void cleararray(int field[20][10])
 {
