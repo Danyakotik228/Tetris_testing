@@ -18,12 +18,9 @@ LIBS += -lgcov
 HEADERS +=     \
 	../app/functions.h \
     cleararray.h \
-<<<<<<< HEAD
     calculate.h \
-    check.h
-=======
+    check.h \
     calculate.h
->>>>>>> cdc9855559533051b4fb370810864d4ba6cb9b1e
 
 SOURCES +=     main.cpp \
 	../app/functions.c
