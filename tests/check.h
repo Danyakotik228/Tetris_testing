@@ -11,7 +11,7 @@ extern "C" {
 TEST(check, num0){
     int field[20][10], i ,j;
     for(i = 0; i < 20; i++){
-        for (j = 0; j  < 20; j++) {
+        for (j = 0; j  < 10; j++) {
             field[i][j] = 0;
         }
     }
@@ -32,7 +32,7 @@ TEST(check, num0){
 TEST(check, num1){
     int field[20][10], i ,j;
     for(i = 0; i < 20; i++){
-        for (j = 0; j  < 20; j++) {
+        for (j = 0; j  < 10; j++) {
             field[i][j] = 0;
         }
     }
@@ -53,7 +53,7 @@ TEST(check, num1){
 TEST(check, num2){
     int field[20][10], i ,j;
     for(i = 0; i < 20; i++){
-        for (j = 0; j  < 20; j++) {
+        for (j = 0; j  < 10; j++) {
             field[i][j] = 0;
         }
     }
@@ -74,7 +74,7 @@ TEST(check, num2){
 TEST(check, num3){
     int field[20][10], i ,j;
     for(i = 0; i < 20; i++){
-        for (j = 0; j  < 20; j++) {
+        for (j = 0; j  < 10; j++) {
             field[i][j] = 0;
         }
     }
@@ -95,7 +95,7 @@ TEST(check, num3){
 TEST(check, num4){
     int field[20][10], i ,j;
     for(i = 0; i < 20; i++){
-        for (j = 0; j  < 20; j++) {
+        for (j = 0; j  < 10; j++) {
             field[i][j] = 0;
         }
     }
