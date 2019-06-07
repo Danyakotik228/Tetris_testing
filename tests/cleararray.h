@@ -31,5 +31,78 @@ TEST(cleararray, num0) {
     }
 }
 
+TEST(cleararray, num1) {
+    int field[20][10];
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            field[i][j] = "";
+        }
+    }
+    cleararray(field);
+    int z = 0;
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            if(field[i][j]) z = 1;
+        }
+    }
+    if(z != 0)
+    {
+        FAIL();
+    }
+     else
+    {
+        SUCCEED();
+    }
+}
+
+TEST(cleararray, num2) {
+    int field[20][10];
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            field[i][j] = "a";
+        }
+    }
+    cleararray(field);
+    int z = 0;
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            if(field[i][j]) z = 1;
+        }
+    }
+    if(z != 0)
+    {
+        FAIL();
+    }
+     else
+    {
+        SUCCEED();
+    }
+}
+
+TEST(cleararray, num3) {
+    int field[20][10];
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            field[i][j] = " ";
+        }
+    }
+    cleararray(field);
+    int z = 0;
+    for (int i = 0; i < 20; i++) {
+        for(int j = 0; j < 10; j++){
+            if(field[i][j]) z = 1;
+        }
+    }
+    if(z != 0)
+    {
+        FAIL();
+    }
+     else
+    {
+        SUCCEED();
+    }
+}
+
+
 
 #endif // FIBONACHI_H
