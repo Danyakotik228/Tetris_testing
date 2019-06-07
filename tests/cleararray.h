@@ -7,6 +7,7 @@ extern "C" {
 #include "functions.h"
 }
 
+//проверка на отчищение массива, заданного единицами
 TEST(cleararray, num0) {
     int field[20][10];
     for (int i = 0; i < 20; i++) {
@@ -31,6 +32,7 @@ TEST(cleararray, num0) {
     }
 }
 
+//проверка на отчищение массива, заданного случайными числами
 TEST(cleararray, num1) {
     int field[20][10];
     for (int i = 0; i < 20; i++) {
@@ -55,6 +57,7 @@ TEST(cleararray, num1) {
     }
 }
 
+//проверка на отчищение массива, заданного крупными числами
 TEST(cleararray, num2) {
     int field[20][10];
     for (int i = 0; i < 20; i++) {
