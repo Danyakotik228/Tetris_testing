@@ -32,7 +32,7 @@ TEST(cleararray, num0) {
 }
 
 TEST(cleararray, num1) {
-    int field[20][10];
+    char field[20][10];
     for (int i = 0; i < 20; i++) {
         for(int j = 0; j < 10; j++){
             field[i][j] = "";
@@ -56,7 +56,7 @@ TEST(cleararray, num1) {
 }
 
 TEST(cleararray, num2) {
-    int field[20][10];
+    char field[20][10];
     for (int i = 0; i < 20; i++) {
         for(int j = 0; j < 10; j++){
             field[i][j] = "a";
@@ -80,7 +80,7 @@ TEST(cleararray, num2) {
 }
 
 TEST(cleararray, num3) {
-    int field[20][10];
+    char field[20][10];
     for (int i = 0; i < 20; i++) {
         for(int j = 0; j < 10; j++){
             field[i][j] = " ";
