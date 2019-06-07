@@ -32,7 +32,7 @@ TEST(cleararray, num0) {
 }
 
 TEST(cleararray, num1) {
-    char field[20][10];
+    int field[20][10];
     for (int i = 0; i < 20; i++) {
         for(int j = 0; j < 10; j++){
             field[i][j] = rand() % 1000;
